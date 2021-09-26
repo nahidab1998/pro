@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">recyclerview</string>
+
+
+    <string name="setting">تنظیمات</string>
+    <string name="dideban">دیده بان</string>
+    <string name="numofquestion">تعداد سوالات</string>
+    <string name="numofuser">تعداد کاربران</string>
+    <string name="solve">حل شده</string>
+    <string name="allrequest">همه درخواست ها</string>
+    <string name="serching">درحال بررسی</string>
+    <string name="cancel">لغو شده</string>
+    <string name="listofuser">لیست کاربران </string>
+    <string name="listofquestion"> لیست سوالات</string>
+    <string name="request">درخواست ها</string>
+    <string name="singin">ورود</string>
+    <string name="username"> نام کاربری</string>
+    <string name="password">رمز عبور </string>
+    <string name="login">ورود</string>
+    <string name="logouttext">خروج از حساب </string>
+    <string name="givenlist">لیست درخواست های داده شده</string>
+    <string name="addlist">افزودن درخواست ( پیش فرض )</string>
+    <string name="nameUser">نام درخواست کننده :</string>
+    <string name="condition">وضعیت درخواست :</string>
+    <string name="address">آدرس :</string>
+    <string name="request_title">عنوان درخواست :</string>
+    <string name="edittext_hint"><font size="14">توضیحات خود را وارد کنید...</font></string>
+    <string name="list_question">لیست سوالات پیش فرض</string>
+    <string name="choose">انتخاب کنید...</string>
+    <string name="questions">چرا؟</string>
+    <string name="description">توضیحات</string>
+    <string name="send">ارسال</string>
+    <string name="select">انتخاب کنید</string>
+
+
+
+
+    <string-array name="username">
+        <item>محمد خواستار</item>
+        <item>محمد خواستار</item>
+        <item>محمد خواستار</item>
+        <item>محمد خواستار</item>
+        <item>محمد خواستار</item>
+        <item>محمد خواستار</item>
+        <item>محمد خواستار</item>
+        <item>محمد خواستار</item>
+        <item>محمد خواستار</item>
+        <item>محمد خواستار</item>
+
+    </string-array>
+    <string-array name="condition">
+        <item>در حال بررسی</item>
+        <item>در حال بررسی</item>
+        <item>در حال بررسی</item>
+        <item>در حال بررسی</item>
+        <item>در حال بررسی</item>
+        <item>در حال بررسی</item>
+        <item>در حال بررسی</item>
+        <item>در حال بررسی</item>
+        <item>در حال بررسی</item>
+        <item>در حال بررسی</item>
+    </string-array>
+
+    <string-array name="address">
+        <item>قم ، آزادگان ، خیابان نواب ، کوچه 16</item>
+        <item>قم ، آزادگان ، خیابان نواب ، کوچه 16</item>
+        <item>قم ، آزادگان ، خیابان نواب ، کوچه 16</item>
+        <item>قم ، آزادگان ، خیابان نواب ، کوچه 16</item>
+        <item>قم ، آزادگان ، خیابان نواب ، کوچه 16</item>
+        <item>قم ، آزادگان ، خیابان نواب ، کوچه 16</item>
+        <item>قم ، آزادگان ، خیابان نواب ، کوچه 16</item>
+        <item>قم ، آزادگان ، خیابان نواب ، کوچه 16</item>
+        <item>قم ، آزادگان ، خیابان نواب ، کوچه 16</item>
+        <item>قم ، آزادگان ، خیابان نواب ، کوچه 16</item>
+    </string-array>
+    <string-array name="request_title">
+        <item>مشکل شبکه</item>
+        <item>مشکل شبکه</item>
+        <item>مشکل شبکه</item>
+        <item>مشکل شبکه</item>
+        <item>مشکل شبکه</item>
+        <item>مشکل شبکه</item>
+        <item>مشکل شبکه</item>
+        <item>مشکل شبکه</item>
+        <item>مشکل شبکه</item>
+        <item>مشکل شبکه</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".givenlist"
+    >
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="left">
+
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="27dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="23dp"
+            android:background="@drawable/ic_logoutsvg"
+            android:onClick="back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logouttext"
+            android:fontFamily="@fonts/iran_sans"
+            android:textColor="@color/bordericon"
+            android:textSize="20sp"
+            android:onClick="back"
+            android:layout_marginLeft="6dp"
+            android:paddingTop="24dp"
+            android:paddingRight="6dp"
+            android:paddingBottom="22dp"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/givenlist"
+            android:layout_gravity="right"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:paddingRight="24dp"
+            android:paddingLeft="24dp"
+            android:fontFamily="@fonts/iran_sans"
+            android:layout_marginBottom="18dp"
+            android:textColor="#252525"/>
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/add_request"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bordericon"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:fontFamily="@fonts/iran_sans"
+        android:text="@string/addlist"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

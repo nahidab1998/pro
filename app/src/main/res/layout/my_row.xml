@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="12dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        app:cardCornerRadius="4sp"
+        app:cardElevation="4sp"
+       android:outlineSpotShadowColor="@color/bordericon"
+        android:layout_margin="12sp"
+        android:layout_marginHorizontal="13sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:padding="5sp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+
+                android:gravity="right"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:text="محمد خواستار"
+                    android:textSize="14dp"
+                    android:padding="5sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@fonts/iran_sans"
+                    android:textColor="#252525"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <TextView
+                    android:padding="5sp"
+                    android:text="@string/nameUser"
+                    android:gravity="center"
+                    android:fontFamily="@fonts/iran_sans"
+                    android:textColor="#585858"
+                    android:textSize="14dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:gravity="right"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_condition"
+                    android:text="09121763521"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:padding="5sp"
+                    android:fontFamily="@fonts/iran_sans"
+                    android:textColor="#252525"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <TextView
+                    android:padding="5sp"
+                    android:text="@string/condition"
+                    android:gravity="center"
+                    android:textColor="#585858"
+                    android:textSize="14dp"
+                    android:fontFamily="@fonts/iran_sans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:gravity="right"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_address"
+                    android:text="15خرداد کوچه39 پلاک 57"
+                    android:textSize="14dp"
+                    android:padding="5sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@fonts/iran_sans"
+                    android:textColor="#252525"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <TextView
+                    android:padding="5sp"
+                    android:text="@string/address"
+                    android:gravity="center"
+                    android:fontFamily="@fonts/iran_sans"
+                    android:textColor="#585858"
+                    android:textSize="14dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:gravity="right"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_request_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@fonts/iran_sans"
+                    android:padding="5sp"
+                    android:textStyle="bold"
+                    android:text="48"
+                    android:textColor="#252525"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:padding="5sp"
+                    android:fontFamily="@fonts/iran_sans"
+                    android:text="@string/request_title"
+                    android:gravity="center"
+                    android:textColor="#585858"
+                    android:textSize="14dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>
